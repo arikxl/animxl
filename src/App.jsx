@@ -1,12 +1,14 @@
 
 import './App.css'
+import Hero from './components/Hero'
 
 function App() {
 
   return (
-    <main>
+    <main className='relative min-h-screen w-screen overflow-x-hidden'>
 
-      <h1  className='text-5xl text-violet-300 font-bold'>Welcome to Gamer</h1>
+      <Hero />
+
     </main>
   )
 }

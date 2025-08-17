@@ -9,6 +9,8 @@ function App() {
 
       <Hero />
 
+
+      <section className='z-0 min-h-screen bg-blue-400' />
     </main>
   )
 }

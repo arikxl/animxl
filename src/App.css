@@ -125,7 +125,7 @@ body {
 }
 
 /* טיפוגרפיה */
-.special-font b {
+.special-font b, b {
   font-family: "zentry";
   font-feature-settings: "ss01" on;
 }

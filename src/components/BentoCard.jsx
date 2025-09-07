@@ -12,7 +12,7 @@ const BentoCard = ({ src, title, desc }) => {
                     <h1 className='bento-title special-font'>{title}</h1>
                     {
                         desc && (
-                            <p className='mt-3 max-w-64 text-xs md:text-base'>{desc }</p>
+                            <p className='mt-3 max-w-64 text-sm md:text-base'>{desc}</p>
                         )
                     }
                 </div>

@@ -2,9 +2,11 @@
 
 # AnimXL
 
-A modern React Frontend application powered by Vite.
 
+This project puts a strong emphasis on interactive animations. It enables image tilt effects on mouse hover, providing a dynamic user experience powered by GSAP.
+A modern React Frontend application powered by Vite.
 Inspired by zentry.com
+
 
 
 ## Features

@@ -3,7 +3,9 @@
 # AnimXL
 
 A modern React Frontend application powered by Vite.
+
 Inspired by zentry.com
+
 
 ## Features
 
@@ -20,6 +22,7 @@ Inspired by zentry.com
 
 - Node.js 18+ recommended.
 - npm or yarn installed.
+
 
 ### Installation
 
@@ -47,6 +50,7 @@ This starts the Vite development server with React Fast Refresh, allowing instan
 - `vite.config.js` - Vite and plugin configuration.
 - `eslint.config.js` - ESLint rules and settings.
 
+
 ## Technologies
 
 | Tool             | Purpose                                       |
@@ -59,13 +63,15 @@ This starts the Vite development server with React Fast Refresh, allowing instan
 | **React Icons**  | SVG icons                    |
 | **ESLint**       | Static code analysis  |
 
+
 ## Customization
 
 - Extend styles in `tailwind.config.js`.
 - Configure additional plugins in `vite.config.js`.
 - Update ESLint rules and ignores in `eslint.config.js`.
 
+
 ## License
 
-This project is open-source. See individual dependencies for their respective licenses.[2]
+This project is open-source. See individual dependencies for their respective licenses.
 

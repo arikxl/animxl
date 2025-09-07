@@ -19,12 +19,12 @@ const Features = () => {
                 </div>
 
 
-                <div className='border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]'>
+                <BentoTilt className='border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]'>
                     <BentoCard src="/videos/feature-1.mp4"
                         title={<>radia<b>n</b>t</>}
                         desc='A cross-platform MetaFrame app, turning your animations into a rewarding adventure.'
                     />
-                </div>
+                </BentoTilt>
 
                 <div className="grid gap-7 md:grid-cols-2 h-[135vh]">
                     {/* שמאל – תופס 2 שורות */}

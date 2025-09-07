@@ -1,4 +1,3 @@
-Here is a comprehensive **README.md** in English for the given React + Vite project, tailored for clarity and useful onboarding.[1][2][3][4]
 
 # AnimXL
 

@@ -6,7 +6,7 @@ import gsap from 'gsap';
 
 
 
-const navItems = ['Nexus', 'Vault', 'Prologue', 'About', 'Contact']
+const navItems = ['Prologue', 'Features', 'Story',  'About', 'Contact']
 
 
 const Navbar = () => {

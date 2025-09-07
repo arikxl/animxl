@@ -5,10 +5,10 @@ import BentoTilt from './BentoTilt'
 
 const Features = () => {
     return (
-        <section className='bg-black pb-22'>
+        <section className='bg-black pb-22' >
             <div className='container mx-auto px-3 md:px-10'>
-                <div className='px-5 py-32'>
-                    <p className='font-circular-web text-lg text-blue-50'>
+                <div className='px-5 py-32' id='prologue'>
+                    <p className='font-circular-web text-lg text-blue-50' >
                         Into the MetaFrame Layer
                     </p>
 
@@ -18,8 +18,9 @@ const Features = () => {
                     </p>
                 </div>
 
+                {/* <div id='features'/> */}
 
-                <BentoTilt className='border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]'>
+                <BentoTilt  className='border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]'>
                     <BentoCard src="/videos/feature-1.mp4"
                         title={<>radia<b>n</b>t</>}
                         desc='A cross-platform MetaFrame app, turning your animations into a rewarding adventure.'
@@ -28,7 +29,7 @@ const Features = () => {
 
                 <div className="grid gap-7 md:grid-cols-2 h-[135vh]">
                     {/* שמאל – תופס 2 שורות */}
-                    <BentoTilt className="md:row-span-2">
+                    <BentoTilt className="md:row-span-2" id='features'>
                         <BentoCard
                             src="/videos/feature-2.mp4"
                             title={<>zig<b>m</b>a</>}
@@ -37,7 +38,8 @@ const Features = () => {
                     </BentoTilt>
 
                     {/* ימין למעלה */}
-                    <BentoTilt className='ms-32 md:ms-0'>
+                    <BentoTilt className='ms-32 md:ms-0' id='nexus' sectionId='#nexus'
+>
 
                         {/* <div className='bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0'> */}
                         <BentoCard

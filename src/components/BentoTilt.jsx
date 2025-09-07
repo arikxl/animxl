@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
 
-const BentoTilt = ({ children, className = '' }) => {
+const BentoTilt = ({ children, className = '', id='' }) => {
 
 
     const [transformStyle, setTransformStyle] = useState('');
@@ -29,7 +29,7 @@ const BentoTilt = ({ children, className = '' }) => {
     }
 
     return (
-        <div className={className} ref={itemRef}
+        <div className={className} ref={itemRef} id={id }
             onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}
             style={{ transform: transformStyle }}>
             {children}

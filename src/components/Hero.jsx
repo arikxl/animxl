@@ -152,7 +152,8 @@ const Hero = () => {
 
                         <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
                             Enter the MetaFrame Layer <br />
-                            Unleash the Pixels Economy
+                            Inspired by &nbsp;
+                            <a target="_blank" href=" https://zentry.com" className="underline">zentry.com</a>
                         </p>
 
                         <Button
